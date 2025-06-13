@@ -1,0 +1,27 @@
+kasia@DESKTOP-VLNLJBR:~/new_folder$ cat selected.txt commands.txt
+24 processes.txt
+root         189  0.0  0.4  30140 18416 ?        Ss   15:33   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         233  0.0  0.5 107164 21376 ?        Ssl  15:33   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         297  0.0  0.1   7520  4736 pts/1    Ss   15:33   0:00 /bin/login -f
+   80  mkdir new_folder
+   81  cd new_folder/
+   82  touch processes.txt
+   83  ps aux > processes.txt
+   84  cp processes.txt copy.txt
+   85  mkdir backup
+   86  cp copy.txt backup
+   87  cd backup/
+   88  rm copy.txt
+   89  cd ..
+   90  mv copy.txt backup
+   91  wc -l processes.txt
+   92  wc -l processes.txt >> touch selected.txt
+   93  touch selected.txt
+   94  wc -l processes.txt >> selected.txt
+   95  cat selected.txt
+   96  grep "/bin" processes.txt >> selected.txt
+   97  cat selected.txt
+   98  man tail
+   99  history
+  100  history | tail -20
+  101  history | tail -22 >> commands.txt
