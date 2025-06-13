@@ -20,7 +20,4 @@ root         297  0.0  0.1   7520  4736 pts/1    Ss   15:33   0:00 /bin/login -f
    94  wc -l processes.txt >> selected.txt
    95  cat selected.txt
    96  grep "/bin" processes.txt -n >> selected.txt
-   97  cat selected.txt
-   98  man tail
-   99  history
-  100  history | tail -21 >> commands.txt
+   97  history | tail -18 > commands.txt
