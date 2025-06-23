@@ -19,5 +19,5 @@ root         297  0.0  0.1   7520  4736 pts/1    Ss   15:33   0:00 /bin/login -f
    93  touch selected.txt
    94  wc -l processes.txt >> selected.txt
    95  cat selected.txt
-   96  grep '/bin' processes.txt -rinH >> selected.txt
+   96  grep -rinH '/bin' processes.txt >> selected.txt
    97  history | tail -18 > commands.txt
